@@ -1,0 +1,6 @@
+{
+  "name": "Pocket PC Bejeweled",
+  "description": "클래식 윈도우 모바일(Pocket PC) 스타일의 정통 비쥬얼드(Bejeweled) 보석 퍼즐 게임",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

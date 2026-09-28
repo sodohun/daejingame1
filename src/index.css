@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    min-height: 100dvh;
+    background-color: #06080d;
+    overscroll-behavior: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -30%) scale(0.6);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.15);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(-50%, -70%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -95%) scale(0.9);
+  }
+}
